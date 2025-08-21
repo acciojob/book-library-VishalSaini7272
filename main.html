@@ -1,16 +1,95 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Library</title>
+  <style>
+    body {
+      background-color: #f8f8f8;
+      /* font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px; */
+    }
+
+    .book-library {
+      max-width: 600px;
+      /* margin: 0 auto; */
+      background-color: #ffffff;
+      padding: 20px;
+      box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+      border-radius: 5px;
+    }
+
+    .book-library h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .book {
+      text-align: center;
+      margin-bottom: 40px;
+      padding: 15px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .book img {
+      max-width: 200px;
+      display: block;
+      margin: 0 auto 15px;
+    }
+
+    .book h2 {
+      font-size: 18px;
+      margin: 5px 0;
+		text-align:left;
+    }
+
+    .book p {
+      margin: 3px 0;
+    }
+
+    .author {
+      color: #777777;
+      font-size: 14px;
+		text-align:left;
+    }
+
+    .price {
+      background-color: #2ecc71;
+      color: #fff;
+      padding: 8px;
+      display: inline-block;
+      margin-top: 10px;
+      border-radius: 3px;
+      font-weight: bold;
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <div class="book-library">
+    <h1>Book Library</h1>
 
+    <div class="book">
+      <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Spy-in-the-Amber-by-Manohar-Malgonkar.jpg">
+      <h2>SPY IN THE AMBER</h2>
+      <p class="author">BY Manohar Malgonkar</p>
+      <div class="price">Rs. 299</div>
+    </div>
+
+    <div class="book">
+      <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Sacred-Games-by-Vikram-Chandra.jpg">
+      <h2>Sacred Games</h2>
+      <p class="author">by Vikram Chandra</p>
+      <div class="price">Rs. 199</div>
+    </div>
+
+    <div class="book">
+      <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Byomkesh-Bakshi-by-Sharadindu-Bandyopadhyay.jpg">
+      <h2>Byomkesh Bakshi</h2>
+      <p class="author">by Sharadindu Bandyopadhyay</p>
+      <div class="price">Rs. 249</div>
+    </div>
+  </div>
 </body>
-
 </html>
